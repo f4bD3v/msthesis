@@ -20,7 +20,7 @@ while read line; do
         if [[ $line =~ ^\# ]]; then TYPE=`processtype $line`;
         else callscript $TYPE $line; fi
     fi
-done < commodities.txt
+done < "$1"
 
 #linux: `date -d "$START 1 days +"%d/%m/%Y"`
 #CURR=`date -j -v+1d -f "%d/%m/%Y" "$CURR" +"%d/%m/%Y"`
