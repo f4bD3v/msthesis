@@ -8,8 +8,12 @@ function processtype {
     echo "${1:1}"
 }
 
-START=`date -d "01/01/2002" +%s`
-YEST=`date +%d/%m/%Y -d "yesterday"`
+
+# linux: `date -d "01/01/2002" +%s`
+START=`date -jf "%d/%m/%Y" "01/01/2002" +"%d/%m/%Y"`
+
+# linux: date +%d/%m/%Y -d "yesterday"`
+YEST=`date -v-1d +%d/%m/%Y`
 TYPE=""
 echo $YEST
 

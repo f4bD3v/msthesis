@@ -51,6 +51,12 @@ http://krishiworld.com/how-changes-in-weather-affects-crops/
 cropping patterns in India
 http://krishiworld.com/cropping-patterns-activities-systems/
 
+get bhav copy for every day since 2003
+http://www.ncdex.com/MarketData/BhavCopy.aspx
+
+as well as spot prices
+http://www.ncdex.com/MarketData/SpotPrice.aspx
+
 ## The middle bit
 
 This is the middle bit. Phasellus quis ex in ipsum pellentesque lobortis tincidunt sed massa. Nullam euismod sem quis dictum condimentum. Suspendisse risus metus, elementum eu congue quis, viverra ac metus. Donec non lectus at lectus euismod laoreet pharetra semper dui. Donec sed eleifend erat, vel ultrices nibh. Nam scelerisque turpis ac nunc mollis, et rutrum nisl luctus.
