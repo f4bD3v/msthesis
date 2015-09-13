@@ -46,6 +46,19 @@ http://lus.dacnet.nic.in/dt_lus.aspx land use statistics up to 14-15
 automatically retrieving data via webform:
 http://stackoverflow.com/questions/8377055/submit-data-via-web-form-and-extract-the-results
 
+http://www.eaindustry.nic.in/home.asp
+retrieve weekly and monthly wholesale price index from selected commodities
+
+data on exports and imports?
+http://www.dgciskol.nic.in/data_information.asp
+data is priced
+
+FORMS for IMPORT/EXPORT data (ministry of commerce)
+http://www.commerce.nic.in/eidb/
+
+fertilizer monitoring system
+http://urvarak.co.in/
+
 
 ### Aggregation
 
