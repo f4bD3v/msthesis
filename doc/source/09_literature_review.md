@@ -39,12 +39,9 @@ http://www.gktoday.in/major-crops-of-india/
 3 growing seasons (Kharif, Rabi, Zaid)
 http://www.yourarticlelibrary.com/notes/notes-on-agricultural-seasons-and-major-crops-in-india/12791/
 
-http://apy.dacnet.nic.in/ has crop production statistics! download manually for full period up to 13-14
+http://apy.dacnet.nic.in/ has crop production statistics! download manually for full period up to 13-14! full period downloaded
 
 http://lus.dacnet.nic.in/dt_lus.aspx land use statistics up to 14-15
-
-automatically retrieving data via webform:
-http://stackoverflow.com/questions/8377055/submit-data-via-web-form-and-extract-the-results
 
 http://www.eaindustry.nic.in/home.asp
 retrieve weekly and monthly wholesale price index from selected commodities
@@ -58,6 +55,17 @@ http://www.commerce.nic.in/eidb/
 
 fertilizer monitoring system
 http://urvarak.co.in/
+
+india population data:
+http://www.censusindia.gov.in/2011census/population_enumeration.html
+primary census
+
+check out World Bank data catalog for international prices
+
+Taluka/Tehsil
+It is an area of land with a city or town that serves as its administrative centre, with possible additional towns, and usually a number of villages. The terms in India have replaced earlier geographical terms, such as pargana, pergunnah and thannah, used under the Delhi Sultanate and the British Raj.
+
+
 
 
 ### Aggregation

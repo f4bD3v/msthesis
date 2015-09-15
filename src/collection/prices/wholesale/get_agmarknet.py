@@ -10,6 +10,7 @@ from time import sleep
 from optparse import OptionParser
 from random import randint
 from BeautifulSoup import BeautifulSoup
+import urllib
 
 usage_str = """
 This scripts downloads daily food prices from http://agmarknet.nic.in/cmm2_home.asp for a given commodity. Results are saved in CSV format to csv_out/ directory.
