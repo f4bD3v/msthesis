@@ -38,6 +38,7 @@ Seasonality of major crops in India:
 http://www.gktoday.in/major-crops-of-india/
 3 growing seasons (Kharif, Rabi, Zaid)
 http://www.yourarticlelibrary.com/notes/notes-on-agricultural-seasons-and-major-crops-in-india/12791/
+http://www.arthapedia.in/index.php?title=Cropping_seasons_of_India-_Kharif_%26_Rabi
 
 http://apy.dacnet.nic.in/ has crop production statistics! download manually for full period up to 13-14! full period downloaded
 
