@@ -11,7 +11,6 @@ def na_replace(text):
 
 def get_staff(html, staff_type):
     prev = get_td_tags_by_txt(html, 'td', staff_type)
-    print staff_type
     if prev:
         sup = prev[0].getnext()
         supervisory = sup.text_content().strip()
@@ -25,18 +24,15 @@ def get_staff(html, staff_type):
     return staff
 
 def get_cell_content(html, text, indicator=''):
-    print text
     prev = get_td_tags_by_txt(html, 'td', text)
     val = ''
     if prev:
-        print prev
         elem = None
         for p in prev:
             if p.getnext() is not None:
                 elem = p
                 break
         if elem is not None:
-            print elem
             cell_text = elem.getnext().text_content().strip()
             val = na_replace(cell_text)
             if indicator: # check if string not empty (e.g. 'Regulated')
@@ -48,7 +44,6 @@ def get_cell_content(html, text, indicator=''):
             val = '*'
     else:
         val = '*'
-    print val
     return val
 
 def get_td_tags_by_txt(html, tag, text):
@@ -81,7 +76,6 @@ def main():
         state_file.close()
 
     market_names = html.xpath('//a/font/text()')
-    print market_names
 
     write_header = True
     old_state = ''
@@ -91,9 +85,8 @@ def main():
         if state != old_state:
             write_header = True
         market_name = market_names[i]
-        state_file = open(csv_out+state+'.csv', 'a') # append to file
+        state_file = open(csv_out+state+'_markets.csv', 'a') # append to file
         writer = csv.writer(state_file, doublequote=True, quoting=csv.QUOTE_NONNUMERIC)
-        print market_name
         r = requests.get('http://agmarknet.nic.in/profile/profile_online/'+link.get('href'))
         source = r.text
 
@@ -110,7 +103,6 @@ def main():
         market_hours = get_cell_content(html, 'Market hours')
 
         apmc_address = get_cell_content(html, 'Full Postal Address')
-        print apmc_address
         #print html.xpath('//td//[text()="Full Postal Address"]/following-sibling/text()')
         secretary_address = get_cell_content(html, 'Address of Secretary')
         #print html.xpath('//td[text()="Address of Secretary"]/following-sibling/text()')
@@ -162,11 +154,12 @@ def main():
         row_1 = [market_name, state, regulated, apmc_address, secretary_address, established, area_served, holidays, market_hours, perm_staff, temp_staff, transport_incoming, transport_outgoing, railway_distance]
         header_2 = '# Regulated Commodities, Cleaning/Grading, # Cold Storage Facilities, Sale Process, Payment Process, Commission, Market Fee, Market Income, Market Expenditure, Profit, APMC Reserves, APMC liabilities' 
         row_2 = [nb_commodities_regulated, cleaned_graded, nb_cold_storage, sale, payment, commission, market_fee, income, expenditure, reserves, profit, liabilities]
-        print row_1+row_2
+	row = map(lambda x: unicode(x.replace('\r','').replace('\n','')).encode("utf-8"), row_1+row_2)
+	print row
         if write_header:
             header = header_1+', '+header_2
             writer.writerow(tuple(header.split(", ")))
-        writer.writerow(tuple(map(lambda x: unicode(x).encode("utf-8"), row_1+row_2)))
+        writer.writerow(tuple(row))
 
         """
         TODO
