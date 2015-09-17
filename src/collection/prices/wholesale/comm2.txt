@@ -1,0 +1,145 @@
+#Pulses
+Alasande Gram
+Arhar (Tur)
+Avare Dal
+Beans
+Bengal Grams(Gram)
+Big Gram
+Black Grams (Urd Beans)
+Bullar
+Chennangidal
+Cowpea (Lobia)(Asparagus)
+Dal (Avare)
+Gram (Bengal Grams)
+Green Gram Dal
+Green Grams (Moong)
+Green Peas
+Horses Gram
+Kabuli Chana(Chickpeas-White)
+Karamani
+Lak
+Lentil(Masur)
+Masur Dal
+Mataki
+Moath Dal
+Moath Dal
+Other Pulses
+Peas(Dry)
+Red Grams
+Thinai (Italian Millet)
+Tur Dal
+Urd Dal
+Varagu
+White Peas
+#Spices
+Ajwan
+Betelnuts
+Black pepper
+Cardamoms
+Chili Red
+Cinamon(Dalchini)
+Cloves
+Coca
+Coconut
+Corriander seed
+Cummin Seed(Jeera)
+Dry Chillies
+Garlic
+Ginger
+Kacholam
+Mace
+Methi Seeds
+Nutmeg
+Other Spices
+Pepper garbled
+Pepper ungarbled
+Soanf
+Turmeric
+#Vegetables
+Alsandikai
+Amaranthus
+Amla
+Amphophalus
+Ashgourd
+Balekai
+Banana - Green
+Beetroot
+Bhindi(Ladies Finger)
+Binoula
+Bitter gourd
+Bottle gourd
+Brinjal
+Cabbage
+Capsicum
+Carrot
+Cauliflower
+Chapparad Avare
+Chilly Capsicum
+Chow Chow
+Cluster beans
+Colacasia
+Coriander
+Cowpea(Veg)
+Cucumbar
+Cucumber (Long Melon)
+Drumstick
+Duster Beans
+Egypian Clover(Barseem)
+Elephant Yam (Suran)
+Field Pea
+French Beans (Frasbean)
+Galgal(Lemon)
+Gram Raw(Chholia)
+Green Avare (W)
+Green Chilly
+Green ginger
+Groundnut pods (raw)
+Guar
+Indian Beans (Seam)
+Indian Colza(Sarson)
+Jamamkhan
+Kartali (Kantola)
+Knool Khol
+Ladies Finger
+Leafy Vegetable
+Lemon
+Little gourd (Kundru)
+Lotus Sticks
+Mango (Raw-Ripe)
+Mashrooms
+Methi
+Mint(Pudina)
+Onion
+Onion Green
+Other Tubers
+Other Vegetable
+Papaya (Raw)
+Peas cod
+Peas Wet
+Pegeon Pea (Arhar Fali)
+Pointed gourd (Parval)
+Potato
+Pumpkin
+Raddish
+Rat Tail Radish (Mogari)
+Ridgeguard(Tori)
+Round gourd
+Season Leaves
+Seemebadnekai
+Snakeguard
+Spinach
+Sponge gourd
+Squash(Chappal Kadoo)
+Surat Beans (Papadi)
+Suvarna Gadde
+Sweet Potato
+Sweet Pumpkin
+Tapioca
+Thogrikai
+Thondekai
+Tinda
+Tomato
+Turmeric (raw)
+Turnip
+White Pumpkin
+Yam (Ratalu)
