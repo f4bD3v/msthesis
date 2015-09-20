@@ -156,11 +156,12 @@ def main():
         row_1 = [market_name, state, regulated, apmc_address, secretary_address, established, area_served, holidays, market_hours, perm_staff, temp_staff, transport_incoming, transport_outgoing, railway_distance]
         header_2 = '# Regulated Commodities, Cleaning/Grading, # Cold Storage Facilities, Sale Process, Payment Process, Commission, Market Fee, Market Income, Market Expenditure, Profit, APMC Reserves, APMC liabilities' 
         row_2 = [nb_commodities_regulated, cleaned_graded, nb_cold_storage, sale, payment, commission, market_fee, income, expenditure, reserves, profit, liabilities]
-        print row_1+row_2
+        row = map(lambda x: unicode(x.replace('\r',' ').replace('\n',' ')).encode("utf-8"), row_1+row_2)
+        print row
         if write_header:
             header = header_1+', '+header_2
             writer.writerow(tuple(header.split(", ")))
-        writer.writerow(tuple(map(lambda x: unicode(x).encode("utf-8"), row_1+row_2)))
+        writer.writerow(tuple(row))
 
         """
         TODO
