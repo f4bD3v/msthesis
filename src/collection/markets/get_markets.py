@@ -55,12 +55,6 @@ def get_td_tags_by_txt(html, tag, text):
     reg = [td for td in html.cssselect(tag) if text in td.text_content()]
     return reg
 
-def rgx_match_window(string):
-    rgx='(?P<before>(\w+\s+)+)\S*dist\S*(?P<after>(\s+\w+)+)'
-    match = re.search(rgx, string, re.IGNORECASE)
-    print match.group()
-    return (" ".join(match.group('before').split()), " ".join(match.group('after').split()))
-
 csv_out = '../../../data/markets/'
 
 def main():
